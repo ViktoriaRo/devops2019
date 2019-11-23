@@ -11,7 +11,12 @@ By reading this readme you will be able to recreate the project and to run it.
 ### Set up local environment
 
 #### Clone the ropository
-Clone this repository
+First of all you need to clone given repository.
+
+``` 
+git clone https://github.com/ViktoriaRo/devops2019.git
+cd vagrant_envs
+```
 
 #### Install all dependences
 
@@ -47,22 +52,24 @@ Remove prefix		distribution/target/
 Remote directory		
 Exec command:
 For testing:
-cd ..
+``` 
+cd  ..
 cd ..
 cd /vagrant
 tar -xzf apache-druid-0.17.0-incubating-SNAPSHOT-bin.tar.gz
 cd apache-druid-0.17.0-incubating-SNAPSHOT
 BUILD_ID=dontKillMe nohup ./bin/start-nano-quickstart &
-java -jar UAT_jar/UAT.jar 
-
+java -jar UAT.jar
+```
 For deploy:
+```
 cd ..
 cd ..
 cd /vagrant
 tar -xzf apache-druid-0.17.0-incubating-SNAPSHOT-bin.tar.gz
 cd apache-druid-0.17.0-incubating-SNAPSHOT
-BUILD_ID=dontKillMe nohup ./bin/start-nano-quickstart &
-
+BUILD_ID=dontKillMe nohup ./bin/start-nano-quickstart &```
+```
 #### User Acceptance Tests
 This test is inside  UAT.jar folder. It runs simple data processing pipeline on wikipedia data.
 
