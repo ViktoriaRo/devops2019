@@ -73,3 +73,5 @@ BUILD_ID=dontKillMe nohup ./bin/start-nano-quickstart &```
 #### User Acceptance Tests
 This test is inside  UAT.jar folder. It runs simple data processing pipeline on wikipedia data.
 
+#### Final notes
+The best way to start the devops developing of the project is to start from already set uped jenkins image, which could be accessed on request. (some sharing through clouds)
