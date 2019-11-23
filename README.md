@@ -1,6 +1,6 @@
 By reading this readme you will be able to recreate the project and to run it.
 
-#### Prerequisites
+### Prerequisites
 - Unix system
 - Installed Git 
 - Google Account
@@ -10,27 +10,27 @@ By reading this readme you will be able to recreate the project and to run it.
 
 ### Set up local environment
 
-## Clone the ropository
+#### Clone the ropository
 ... 
 
-## Install all dependences
+#### Install all dependences
 ...
 
-## Run the project
+#### Run the project
 ...
 
-## Make the environments
+#### Make the environments
 ...
 
-# Work on your code and commit changes
+#### Work on your code and commit changes
 
 
 ### How does it work
 
-## Vagrant up
+#### Vagrant up
 
-## Jenkins configuration
+#### Jenkins configuration
 
-## User Acceptance Tests
+#### User Acceptance Tests
 
 
