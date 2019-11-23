@@ -36,14 +36,15 @@ the pipeline is the following:
 Source Code Management: https://github.com/GurovNik/incubator-druid.git
 Build Triggers: GitHub hook trigger for GITScm polling
 Build - execute shell - command: 
-'mvn clean install -Pdist -Dgpg.skip
+```
+mvn clean install -Pdist -Dgpg.skip
 cd distribution/target
 tar -xzf apache-druid-0.17.0-incubating-SNAPSHOT-bin.tar.gz
 mv ../../zk apache-druid-0.17.0-incubating-SNAPSHOT/zk
 mv ../../UAT_jar apache-druid-0.17.0-incubating-SNAPSHOT/UAT_jar
 rm apache-druid-0.17.0-incubating-SNAPSHOT-bin.tar.gz
 tar czf apache-druid-0.17.0-incubating-SNAPSHOT-bin.tar.gz apache-druid-0.17.0-incubating-SNAPSHOT'
-
+```
 Post-build Actions:
 You should setup two ssh servers before: test and local-vagrant
 Sent build artifacts over shh:
