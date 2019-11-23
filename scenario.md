@@ -1,1 +1,1 @@
-Write the scenarios
+In order to understand if the pipeline works, setup the development environment according to `README.md` and make a change. Commit it and let the jenkins work. After 15 minutes (if you are not using it for first time, othewise it will take about an hour) you will see in the console a notification that tells you the result. Either you feature is in the production or it neds some changes.
